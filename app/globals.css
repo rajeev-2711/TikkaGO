@@ -1,26 +1,27 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+/* === Custom global styles from your HTML === */
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Inter', sans-serif;
+  background-color: #050505;
+  color: #ffffff;
+}
+
+.red-gradient {
+  background: linear-gradient(
+    180deg,
+    rgba(255,0,0,0.1) 0%,
+    rgba(5,5,5,1) 100%
+  );
+}
+
+.nav-blur {
+  background: rgba(5, 5, 5, 0.8);
+  backdrop-filter: blur(10px);
+}
+
+.card-dark {
+  background: #111111;
+  border: 1px solid #222222;
 }
