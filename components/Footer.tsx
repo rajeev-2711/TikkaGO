@@ -6,7 +6,7 @@ export default function Footer() {
       </div>
 
       <p className="text-gray-500 text-xs">
-        © TikkaGo 2025. Handcrafted Fusion in Bangalore.
+        © TikkaGo 2025. Handcrafted Fusion in Kolkata.
       </p>
     </footer>
   );

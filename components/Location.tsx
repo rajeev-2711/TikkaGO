@@ -18,9 +18,9 @@ export default function Location() {
                 Address
               </h4>
               <p className="text-xl">
-                Shop 4, Urban Square, Street 12
+                Shop NO.10, TCS Gitanjali Park
                 <br />
-                Indiranagar, Bangalore 560038
+                 New Town, Kolkata - 700156
               </p>
             </div>
 
@@ -34,7 +34,7 @@ export default function Location() {
             </div>
 
             <a
-              href="https://maps.google.com"
+              href="https://www.google.com/maps/place/TikkaGO/@22.5817579,88.487541,20z/data=!4m6!3m5!1s0x3a020b76adc98a33:0xef9a286403efe14f!8m2!3d22.5816335!4d88.487446!16s%2Fg%2F11x_36bhv0!5m1!1e2?entry=ttu&g_ep=EgoyMDI2MDEwNy4wIKXMDSoASAFQAw%3D%3D"
               target="_blank"
               className="inline-block bg-white text-black font-black px-8 py-3 rounded hover:bg-red-600 hover:text-white transition uppercase"
             >
@@ -43,9 +43,9 @@ export default function Location() {
           </div>
         </div>
 
-        <div className="h-96 bg-zinc-800 rounded-2xl overflow-hidden grayscale contrast-125">
+        <div className="h-96 bg-zinc-800 rounded-2xl overflow-hidden  contrast-125">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.922152862041!2d77.6385217!3d12.97675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae16a3f6507797%3A0xc3919e8c45479008!2sIndiranagar%2C%20Bengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1710000000000"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.106913318645!2d88.486446!3d22.5816335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a020b76adc98a33%3A0xef9a286403efe14f!2sTikkaGO!5e0!3m2!1sen!2sin!4v1736250000000"
             width="100%"
             height="100%"
             style={{ border: 0 }}
