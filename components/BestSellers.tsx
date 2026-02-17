@@ -4,7 +4,7 @@ export default function BestSellers() {
   const bestSellers = menu.filter(item => item.bestseller);
 
   return (
-    <section className="py-24 px-6 bg-black">
+    <section id="menu" className="py-24 px-6 bg-black">
       <div className="max-w-7xl mx-auto">
         {/* Section header */}
         <div className="flex justify-between items-end mb-12">
